@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css?ver=1233">
+	 <!--  для  анимации-->
+<link rel="stylesheet" media="all" href="animate2.css">
+<script src="wow.min.js"></script>
+<script>new WOW().init();</script>
+<!--  для  анимации-->
+<style type="text/css">
+
+</style>
+</head>
+
+<body>
+
+<ul id="blabla"  >
+ 
+</ul>
+<audio id="audio" src="images/mus2.mp3" controls="controls"   ></audio> 
+ <audio   src="images/mus.mp3" autoplay ></audio>  
+
+ <div class="maint">
+<div id="timer_inp">60</div>
+
+	<table class="tables">
+	<img id="tests" src="images/flag.png" width="210px"  >
+	 <!--  <tr class="tr"> -->
+	    <td>15-</td><td>1 000 000</td>
+	  </tr>
+	  <tr>
+	    <td>14-</td><td>500 000</td>
+	  </tr>
+	  <tr>
+	    <td>13-</td><td>250 000</td>
+	  </tr>
+	  <tr>
+	    <td>12-</td><td>125 000</td>
+	  </tr>
+	  <tr>
+	    <td>11-</td><td>64 000</td>
+	  </tr>
+	 <!--  <tr class="tr"> -->
+	    <td>10-</td><td>32 000</td>
+	  </tr>
+	  <tr>
+	    <td>9-</td><td>16 000</td>
+	  </tr>
+	  <tr>
+	    <td>8-</td><td>8 000</td>
+	  </tr>
+	  <tr>
+	    <td>7</td><td>4 000</td>
+	  </tr>
+	  <tr>
+	    <td>6-</td><td>2 000</td>
+	  </tr>
+	 <!--  <tr class="tr"> -->
+	    <td>5-</td><td>1 000</td>
+	  </tr>
+	  <tr>
+	    <td>4-</td><td>500</td>
+	  </tr>
+	  <tr>
+	    <td>3-</td><td>300</td>
+	  </tr>
+	  <tr>
+	    <td>2-</td><td>200</td>
+	  </tr>	        	  	  
+	  <tr>
+	    <td>1-</td><td>100</td>
+	  </tr>
+	</table>
+
+</div>
+
+	<section class="sectionmain">
+		
+
+	
+<div class="sectiondiv">
+
+	<h3 class="question"  > </h3><img src="images/1.png" class="img12">
+  </div>
+
+  <section style="width: 100%; display: flex; margin-top: 58px; justify-content: center;">
+  	
+
+ <div class="chooseone">
+
+
+
+			<div class="choose grow">
+					<input class="answer-input" type="radio" name="answer" id="answer1" value="0">
+					<label for="answer1" class="answer-label"></label><br> 
+			</div>
+
+
+			<div class="choose grow" style="margin-top: 5px;">	  
+				<input class="answer-input" type="radio" name="answer" id="answer2" value="1">
+				<label for="answer2" class="answer-label"></label><br>
+			 </div>
+
+
+</div>
+
+ <div class="chooseone2">
+
+			<div class="choose grow"> 
+					<input class="answer-input" type="radio" name="answer" id="answer3" value="2">
+					<label for="answer3" class="answer-label"></label><br>
+			</div>
+
+
+			<div class="choose grow" style="margin-top: 5px;">	 
+					<input class="answer-input" type="radio" name="answer" id="answer4" value="3">
+					<label for="answer4" class="answer-label"></label><br>
+			</div>
+
+</div>
+  </section>
+
+
+
+
+<div class="tryhard">
+	<div style="width: 7%;    text-align: center;" class="round50 round-style round-style1 grow"><p><img width="63px" src="images/idea.png"> </p></div>
+	<div style="width: 7%;    text-align: center;" class="round round-style round-style2 grow"><p><img width="63px" src="images/idea2.png"></p></div>
+	<div style="width: 7%;    text-align: center;" class="round10 round-style round-style3 grow"><p><img width="63px" src="images/phone.png"></p></div>
+	
+	</div>
+ 
+	</section>
+	<div class="start" >
+	<form action="">
+		 <div class="startnear">
+		 	<img src="images/start.png" class="img13" >
+		<button class="grow" type="submit"   onclick="func()"	  id="start"><img width="65px;" src="images/Стартовая.png"></button></div>
+	</form>
+	</div>
+
+
+	<div class="end" style="z-index: 1;">
+ <section id="download">
+    <a href="//volspb.ru/gametest/zabivaka.jpg" download="" target="_blank">
+    	<div style="width: 50vw; height: 100vh; "></div>
+    </a>
+	<a href="//volspb.ru/gametest/fonend.jpg" download="" target="_blank">
+    	<div style="width: 50vw;height: 100vh;"></div>
+	</a>
+   </section>
+		<h1 id="gameover">Игра окончена</h1>
+		<h3 class="showResult">Вы можете<a style="text-decoration: none;
+    color: inherit;" href="javascript:window.location.href=window.location.href"> начать заново</a> </h3>
+		<img  id="gameover2" src="images/end.png" width="600px" style="position: absolute; top: 5em;">
+	</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js?ver=13211132131"></script>
+<script type="text/javascript">
+ 	function func() {
+$('#audio').get(0).play();
+}
+
+</script>
+</body>
+</html>
