@@ -1,4 +1,4 @@
-Game for volunteers like "Who Wants to Be a Millionaire.
+Game for volunteers like "Who Wants to Be a Millionaire".
 
 You can try it at https://vk.cc/84Fn4Z . Enjoy!
 
